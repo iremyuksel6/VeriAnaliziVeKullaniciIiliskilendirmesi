@@ -1,7 +1,7 @@
-# Kullanıcı Grafiği Analizi – DFS Algoritması
+Kullanıcı Grafiği Analizi – DFS Algoritması
 
 Bu proje, kullanıcılar arasındaki takipçi / takip edilen ilişkilerini
-**graf yapısı** üzerinde modelleyerek **Depth First Search (DFS)** algoritması
+graf yapısı üzerinde modelleyerek Depth First Search (DFS) algoritması
 ile analiz etmeyi amaçlamaktadır.
 
 Kullanıcı verileri JSON formatında alınmakta, her kullanıcı bir düğüm (node),
@@ -9,17 +9,14 @@ kullanıcılar arasındaki ilişkiler ise kenar (edge) olarak temsil edilmektedi
 Oluşturulan graf üzerinde DFS algoritması uygulanarak bağlantılar
 derinlemesine incelenmektedir.
 
----
-
-## 📌 Projenin Amacı
+##  Projenin Amacı
 
 - Kullanıcılar arası ilişkileri graf teorisi kullanarak modellemek  
 - DFS algoritmasının gerçek bir veri seti üzerinde nasıl çalıştığını göstermek  
 - Graf yapıları ve arama algoritmaları konusunda pratik kazanmak  
 
----
 
-## 📂 Dosya Yapısı
+##  Dosya Yapısı
 
 - **main.py**  
   Programın çalıştırıldığı ana dosyadır. Diğer modülleri çağırarak
@@ -37,9 +34,8 @@ derinlemesine incelenmektedir.
   Proje kapsamında ihtiyaç duyulan yardımcı fonksiyonları ve
   ek işlemleri barındırır.
 
----
 
-## 🛠️ Kullanılan Teknolojiler ve Kütüphaneler
+##  Kullanılan Teknolojiler ve Kütüphaneler
 
 - **Python 3**
 - **json**  
@@ -49,18 +45,16 @@ derinlemesine incelenmektedir.
 - **matplotlib.pyplot**  
   Oluşturulan grafın görselleştirilmesi amacıyla kullanılmıştır.
 
----
 
-## 🧠 Kullanılan Algoritma
+##  Kullanılan Algoritma
 
 - **Depth First Search (DFS)**  
   Graf üzerindeki düğümlerin derinlemesine gezilmesini sağlayan
   arama algoritmasıdır. Kullanıcılar arasındaki bağlantıların
   analiz edilmesinde kullanılmıştır.
 
----
 
-## ▶️ Çalıştırma Talimatları
+##  Çalıştırma Talimatları
 
 1. Gerekli kütüphaneleri yükleyin:
    ```bash
