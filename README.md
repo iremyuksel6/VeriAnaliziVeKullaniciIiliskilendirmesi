@@ -9,52 +9,49 @@ kullanıcılar arasındaki ilişkiler ise kenar (edge) olarak temsil edilmektedi
 Oluşturulan graf üzerinde DFS algoritması uygulanarak bağlantılar
 derinlemesine incelenmektedir.
 
-##  Projenin Amacı
+Projenin Amacı
 
 - Kullanıcılar arası ilişkileri graf teorisi kullanarak modellemek  
 - DFS algoritmasının gerçek bir veri seti üzerinde nasıl çalıştığını göstermek  
 - Graf yapıları ve arama algoritmaları konusunda pratik kazanmak  
 
+Dosya Yapısı
 
-##  Dosya Yapısı
-
-- **main.py**  
+- main.py 
   Programın çalıştırıldığı ana dosyadır. Diğer modülleri çağırarak
   uygulamanın akışını yönetir.
 
-- **dfs_algorithm.py**  
+- dfs_algorithm.py  
   Depth First Search (DFS) algoritmasının uygulandığı dosyadır.
   Graf üzerinde derinlik öncelikli arama işlemleri burada gerçekleştirilir.
 
-- **kullanici_grafi.py**  
+- kullanici_grafi.py
   Kullanıcıların ve aralarındaki ilişkilerin graf yapısı şeklinde
   modellenmesini sağlayan sınıf ve fonksiyonları içerir.
 
-- **prolab1_3.py**  
+- prolab1_3.py 
   Proje kapsamında ihtiyaç duyulan yardımcı fonksiyonları ve
   ek işlemleri barındırır.
 
+Kullanılan Teknolojiler ve Kütüphaneler
 
-##  Kullanılan Teknolojiler ve Kütüphaneler
-
-- **Python 3**
-- **json**  
+- Python 3
+- json 
   Kullanıcı verilerinin JSON formatında okunması ve işlenmesi için kullanılmıştır.
-- **networkx**  
+- networkx 
   Kullanıcı ilişkilerinin graf yapısı olarak modellenmesi için kullanılmıştır.
-- **matplotlib.pyplot**  
+- matplotlib.pyplot  
   Oluşturulan grafın görselleştirilmesi amacıyla kullanılmıştır.
 
+Kullanılan Algoritma
 
-##  Kullanılan Algoritma
-
-- **Depth First Search (DFS)**  
+- Depth First Search (DFS) 
   Graf üzerindeki düğümlerin derinlemesine gezilmesini sağlayan
   arama algoritmasıdır. Kullanıcılar arasındaki bağlantıların
   analiz edilmesinde kullanılmıştır.
 
 
-##  Çalıştırma Talimatları
+Çalıştırma Talimatları
 
 1. Gerekli kütüphaneleri yükleyin:
    ```bash
